@@ -554,6 +554,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -561,6 +565,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 
 .font-bold {
