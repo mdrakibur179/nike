@@ -2,6 +2,8 @@ import "./styles/output.css";
 
 export default function App() {
   return (
-    <h1 className="text-3xl font-bold text-red-600 text-center">Hello world!</h1>
+    <h1 className="text-5xl font-bold text-center mt-4">
+      Successfully Created New Branch
+    </h1>
   );
 }
