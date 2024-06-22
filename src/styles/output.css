@@ -562,22 +562,18 @@ video {
   position: relative;
 }
 
-.mt-4{
-  margin-top: 1rem;
-}
-
 .w-full{
   width: 100%;
-}
-
-.bg-pale-blue{
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
 }
 
 .bg-black{
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-pale-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
 }
 
 .py-10{
@@ -592,14 +588,6 @@ video {
 
 .pb-8{
   padding-bottom: 2rem;
-}
-
-.text-center{
-  text-align: center;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .padding{
