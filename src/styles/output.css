@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap");
+
 /*
 ! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
@@ -446,7 +450,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -500,7 +504,7 @@ video {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,20 +558,108 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-center {
-  text-align: center;
+.relative{
+  position: relative;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.w-full{
+  width: 100%;
 }
 
-.font-bold {
-  font-weight: 700;
+.bg-black{
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.text-red-600 {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+.bg-pale-blue{
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 246 255 / var(--tw-bg-opacity));
+}
+
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.py-16{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.padding{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 640px){
+  .padding{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.padding-x{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (min-width: 640px){
+  .padding-x{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+.padding-t{
+  padding-top: 3rem;
+}
+
+@media (min-width: 640px){
+  .padding-t{
+    padding-top: 6rem;
+  }
+}
+
+.padding-b{
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 640px){
+  .padding-b{
+    padding-bottom: 6rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 640px){
+  .sm\:py-32{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1440px){
+  .wide\:padding-r{
+    padding-right: 2rem;
+  }
+
+  @media (min-width: 640px){
+    .wide\:padding-r{
+      padding-right: 4rem;
+    }
+  }
 }
